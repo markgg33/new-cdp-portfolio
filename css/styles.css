@@ -97,6 +97,10 @@
     display: none;
 }
 
+.about-section img{
+    display: none;
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -140,12 +144,6 @@
     .landing-section h2:hover{
         color: orange;
     }
-
-    .about-section{
-        background-color: rgb(50, 66, 134);
-        height: 70vh;
-        width: 100%;
-    }
    
     .navbar-links.active {
         display: flex;
@@ -175,9 +173,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: rgb(50, 66, 134);
+        height: 70vh;
+        width: 100%;
     }
 
     .about-section img{
+        display: flex;
         margin-top: 20px;
         height: 400px;
     }
