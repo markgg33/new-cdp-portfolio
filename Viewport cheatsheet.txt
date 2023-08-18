@@ -1,0 +1,5 @@
+for laptops - 1500px max
+
+for desktop - 1920px max
+
+for mobile - 420px max
