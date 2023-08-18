@@ -58,7 +58,7 @@
 
 .toggle-button{
     position: absolute;
-    top: 45px;
+    top: 30px;
     right: 10px;
     display: none;
     flex-direction: column;
@@ -185,6 +185,9 @@
 
 @media only screen and (max-width: 768px){
 
+    .navbar img{
+        height: 70px;
+    }
     .navbar-links{
         display: none;
         width: 100%;
