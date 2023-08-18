@@ -103,7 +103,7 @@
 @media (max-width: 420px){
 
     .main-container{
-        height: 80vh;
+        height: 100vh;
     }
     .landing-section{
         display: flex;
