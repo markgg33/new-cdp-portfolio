@@ -78,14 +78,6 @@
 
 /*LANDING SECTION*/
 
-.main-container {
-  background-image: url("../images/bgPicture.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-}
-
 .landing-section {
   display: flex;
   flex-direction: row;
@@ -95,12 +87,18 @@
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 420px) {
+@media only screen and (max-width: 420px) {
+
   .main-container {
+    background-image: url("../images/bgPicture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
   }
 
   /*LANDING SECTION*/
+
   .landing-section {
     display: flex;
     flex-direction: column;
@@ -110,7 +108,7 @@
 
   .landing-section img {
     display: flex;
-    height: 300px;
+    height: 100px;
     animation: heroAnimation 3s infinite;
   }
 
@@ -223,7 +221,8 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
+
   /*NAVBAR*/
   .navbar img {
     height: 70px;
@@ -265,8 +264,16 @@
 
   /*LANDING SECTION*/
 
+  .main-container {
+    background-image: url("../images/bgPicture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+
   .landing-section img {
-    height: 350px;
+    height: 400px;
     animation: heroAnimation 3s infinite;
   }
 
@@ -323,53 +330,8 @@
   /*LANDING SECTION*/
 
   /*ABOUT SECTION*/
-  .about-section img {
-    display: flex;
-    align-self: center;
-    margin: 0 20px 0;
-    height: 400px;
-    border-radius: 20px;
-    box-shadow: 10px 5px 1px orange;
-  }
 
-  .about-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(34, 44, 91);
-    height: 80vh;
-    width: 100%;
-  }
-
-  .about-text {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px;
-  }
-
-  .about-text h2 {
-    color: white;
-    padding: 0 20px 0 30px;
-    font-size: 60px;
-    padding-bottom: 30px;
-  }
-
-  .about-text p {
-    text-align: start;
-    padding: 0 30px 0 30px;
-    color: white;
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .about-text p:nth-child(3) {
-    padding-top: 20px;
-  }
-
-  strong {
-    color: orange;
-  }
+ 
 
   /*ABOUT SECTION*/
 }
