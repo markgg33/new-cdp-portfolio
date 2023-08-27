@@ -21,6 +21,17 @@
   }
 }
 
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /*Animations*/
 
 .reminders{
@@ -135,16 +146,18 @@
 
   .landing-section img {
     height: 240px;
-    animation: heroAnimation 3s infinite;
+    animation: fadeIn 0.75s, heroAnimation 3s infinite;
   }
 
   .landing-text p {
     font-size: 20px;
+    animation: fadeIn 0.75s;
   }
 
   .landing-text h1 {
     color: rgb(34, 44, 91);
     font-size: 40px;
+    animation: fadeIn 0.75s;
   }
 
   .btn-download{
@@ -156,6 +169,7 @@
     font-weight: bold;
     transition: background-color 0.25s, color 0.25s, border 0.25s;
     cursor: pointer;
+    animation: fadeIn 0.75s;
   }
 
   .btn-download:hover{
@@ -222,6 +236,7 @@
    }
 
    .skills-section h2{
+    margin-top: 25px;
     text-align: center;
     color: rgb(34, 44, 91);
     font-size: 50px;
@@ -245,18 +260,37 @@
     height: 160px;
     margin-top: 10px;
     margin-bottom: 10px;
-    transition: transform 300ms;
+    transition: transform 500ms, filter 500ms, box-shadow 500ms;
     border-radius: 10px;
    }
 
    .bars p{
     margin-top: 5px;
+    font-weight: bold;
+    color: rgb(34, 44, 91);
    }
 
    .bars img:hover{
     filter: grayscale(0);
     transform: translateY(-3px);
+    box-shadow: 10px 10px 20px black;
    }
+
+   .project-section{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(34, 44, 91);
+    padding: 20px 20px;
+    align-items: center;
+    color: white;
+   }
+
+   .project-section h2{
+    padding-bottom: 30px;
+    font-size: 40px;
+   }
+  
 
 }
 
