@@ -21,12 +21,12 @@
   }
 }
 
-@keyframes fadeIn{
+@keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(10px);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateY(0);
   }
@@ -34,7 +34,7 @@
 
 /*Animations*/
 
-.reminders{
+.reminders {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -160,7 +160,7 @@
     animation: fadeIn 0.75s;
   }
 
-  .btn-download{
+  .btn-download {
     border: none;
     padding: 15px 25px;
     background-color: rgb(34, 44, 91);
@@ -172,7 +172,7 @@
     animation: fadeIn 0.75s;
   }
 
-  .btn-download:hover{
+  .btn-download:hover {
     background-color: white;
     color: black;
     border: 1px solid rgb(34, 44, 91);
@@ -217,104 +217,106 @@
     font-size: 30px;
   }
 
-  .about-text p { 
+  .about-text p {
     font-size: 13px;
     margin-top: 10px;
-   }
+  }
 
-   strong{
+  strong {
     color: orange;
-   }
+  }
 
-   .skills-section{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     height: 100vh;
-     padding: 10px 20px;
-     background-color: rgb(185, 185, 185);
-   }
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 10px 20px;
+    background-color: rgb(185, 185, 185);
+  }
 
-   .skills-section h2{
+  .skills-section h2 {
     margin-top: 25px;
     text-align: center;
     color: rgb(34, 44, 91);
     font-size: 50px;
-   }
+  }
 
-   .bars{
+  .bars {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: 10px 20px;
-   }
+  }
 
-   .bars{
+  .bars {
     display: flex;
     flex-direction: column;
     align-items: center;
-   }
+  }
 
-   .bars img{
+  .bars img {
     filter: grayscale(100%);
     margin-top: 10px;
     margin-bottom: 10px;
     transition: transform 500ms, filter 500ms, box-shadow 500ms;
     border-radius: 10px;
     width: 100%;
-   }
+  }
 
-   .bars p{
+  .bars p {
     margin-top: 5px;
     font-weight: bold;
     color: rgb(34, 44, 91);
-   }
+  }
 
-   .bars img:hover{
+  .bars img:hover {
     filter: grayscale(0);
     transform: translateY(-3px);
     box-shadow: 10px 10px 20px black;
-   }
+  }
 
-   .project-section{
+  .project-section {
     display: flex;
-    height: 100vh;
+    height: 120vh;
     flex-direction: column;
     background-color: rgb(34, 44, 91);
     padding: 20px 20px;
     align-items: center;
     color: white;
-   }
+  }
 
-   .project-section h2{
+  .project-section h2 {
     padding-bottom: 30px;
     font-size: 40px;
-   }
+  }
 
-   .project-section img{
-    padding-top: 10px;
+  .project-section img {
+    margin: 10px 100px;
     width: 100%;
     border-radius: 30px;
     transition: transform 300ms, border-radius 300ms, box-shadow 300ms;
-   }
+  }
 
-   .project-section img:hover{
+  .project-section img:hover {
     transform: translateY(-5px);
     border-radius: 0;
     box-shadow: 15px 15px 20px orange;
-   }
+  }
 
-   .p-text{
+  .p-text {
     padding-top: 15px;
     font-size: 20px;
-   }
+  }
 
-   .p-text span{
+  .p-text span {
     color: orange;
     font-weight: bold;
-   }
-     
+  }
 
+  .contact-section {
+    height: 100vh;
+  }
 }
 
 @media (min-width: 768px) {
