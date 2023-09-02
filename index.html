@@ -113,8 +113,21 @@
         <img src="images/project2.png" alt="Project 2 (E-commerce) Photo">
     </div>
     <div class="contact-section" id="contacts">
-      HAHAHAHAHA
+      <div class="contact-text">
+        <img src="images/customer-service.png" alt="">
+        <h2><span>CONTACT </span>US</h2>
+        <p>Feel free to contact us for inquiring and check out our other contacts</p>
+      </div>
+      <form id="submit-to-google-sheets" method="POST" action="https://script.google.com/macros/s/AKfycbymJdyWYELQypPFgBaRmNOFEYu5xXx6U4tz3W5T9egagPgTlZBhgs9yegnn0kHZeJpK/exec">
+        <input type="text" name="Name" placeholder="Name" required>
+        <input type="email" name="Email" placeholder="Email" required>
+        <textarea name="Message"  rows="6" placeholder="Your Message" ></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <span id="msg"></span>
     </div>
+
     <script src="script.js"></script>
+    
   </body>
 </html>

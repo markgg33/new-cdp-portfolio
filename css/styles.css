@@ -315,8 +315,100 @@
   }
 
   .contact-section {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    background-color: rgb(185, 185, 185);
+
   }
+
+  .contact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+  }
+
+  .contact-text img{
+    margin-left: 50px;
+    height: 30vh;
+  }
+
+  .contact-text h2 span{
+    color: rgb(34, 44, 91);
+  }
+
+  .contact-text p{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #msg{
+    color: rgb(34, 44, 91);
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 20px;
+    animation: fadeIn;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+  }
+
+  .contact-section input{
+    border: 2px solid rgb(34, 44, 91);
+    border-radius: 4px;
+    margin-top: 10px;
+    height: 30px;
+    resize: none;
+    transition: border 300ms;
+    padding: 5px 10px;
+  }
+
+  .contact-section input:hover{
+    border: 2px solid orange;
+  }
+
+  .contact-section textarea{
+    margin-top: 10px;
+    border: 2px solid rgb(34,44,91);
+    border-radius: 4px;
+    resize: none;
+    transition: border 300ms;
+    padding: 5px 10px;
+  }
+
+  .contact-section textarea:hover{
+    border: 2px solid orange;
+  }
+
+  .contact-section button{
+    margin-top: 20px;
+    align-self: center;
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(34,44,91);
+    color: white;
+    font-weight: bold;
+    transition: opacity 300ms;
+  }
+
+  .contact-section button:hover{
+    opacity: 0.8;
+  }
+
+  .contact-section button:active{
+    opacity: 1;
+  }
+
 }
 
 @media (min-width: 768px) {
