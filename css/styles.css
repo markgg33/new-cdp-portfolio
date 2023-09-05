@@ -409,6 +409,24 @@
     opacity: 1;
   }
 
+  .footer-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;   
+    background-color: rgb(34,44,91);
+    align-items: center;
+  }
+
+  .footer-section img{
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .footer-section p{
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
