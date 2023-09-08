@@ -44,7 +44,7 @@
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 568px) {
+@media screen and (max-width: 568px) {
 
   /*LANDING SECTION*/
 
@@ -313,6 +313,12 @@
     font-weight: bold;
   }
 
+  .projects-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .contact-section {
     display: flex;
     flex-direction: column;
@@ -493,8 +499,7 @@
   }
 }
 
-
-@media (min-width: 1200px) {
+/*@media screen and (min-width: 1160px) {
 
   .toggle-button {
     display: none;
@@ -576,3 +581,4 @@
 
 
 }
+

@@ -1,6 +1,6 @@
 /*FOR PORTRAIT*/
 
-@media (min-width: 768px) and (orientation: portrait){
+@media (min-width: 768px){
     /*LANDING SECTION*/
   
     .main-container {
@@ -205,6 +205,7 @@
       flex-direction: column;
       align-items: center;
       margin: 10px 20px;
+      width: 70%;
     }
   
     .bars img {
@@ -213,6 +214,7 @@
       margin-bottom: 10px;
       transition: transform 500ms, filter 500ms, box-shadow 500ms;
       border-radius: 10px;
+      width: 100%;
     }
   
     .bars img:hover {
@@ -233,7 +235,7 @@
       height: 120vh;
       flex-direction: column;
       background-color: rgb(34, 44, 91);
-      padding: 20px 20px;
+      padding: 40px 20px;
       align-items: center;
       color: white;
     }
@@ -241,12 +243,13 @@
     .project-section h2 {
       padding-bottom: 30px;
       font-size: 40px;
+      padding-top: 30px;
     }
   
-    .project-section img {
+    .projects-1 img {
       margin: 10px 100px;
-      width: 59%;
       border-radius: 30px;
+      width: 70%;
       transition: transform 300ms, border-radius 300ms, box-shadow 300ms;
     }
   
@@ -261,6 +264,12 @@
       margin-left: 50px;
       margin-right: 50px;
       margin-bottom: 20px;
+    }
+
+    .projects-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   
     .p-text {
@@ -456,13 +465,11 @@
     #myBtn:hover{
       opacity: 0.4;
     }
-  
   }
+
+  @media screen and (min-width: 1160px){
+    /*LANDING SECTION*/
   
-  /*FOR LANDSCAPE*/
-
-/*@media (min-width: 768px){
-
     .main-container {
       background-image: url("../images/bgPicture.png");
       background-size: cover;
@@ -555,7 +562,7 @@
     }
   
     .landing-section img {
-      width: 100%;
+      width: 50%;
       animation: fadeIn 0.75s, heroAnimation 3s infinite;
     }
   
@@ -567,13 +574,13 @@
     }
   
     .landing-text p {
-      font-size: 50px;
+      font-size: 30px;
       animation: fadeIn 0.75s;
     }
   
     .landing-text h1 {
       color: rgb(34, 44, 91);
-      font-size: 70px;
+      font-size: 50px;
       animation: fadeIn 0.75s;
     }
   
@@ -617,7 +624,7 @@
     }
   
     .about-container img {
-      width: 40%;
+      width: 30%;
       border-radius: 20px;
       margin: 20px 0 10px 0;
       box-shadow: 10px 10px 1px orange;
@@ -665,6 +672,7 @@
       flex-direction: column;
       align-items: center;
       margin: 10px 20px;
+      width: 55%;
     }
   
     .bars img {
@@ -673,13 +681,13 @@
       margin-bottom: 10px;
       transition: transform 500ms, filter 500ms, box-shadow 500ms;
       border-radius: 10px;
-      height: 200px;
+      width: 70%;
     }
   
     .bars img:hover {
       filter: grayscale(0);
       transform: translateY(-3px);
-      box-shadow: 10px 10px 20px black;
+      box-shadow: 10px 10px 20px orange;
     }
   
     .bars p {
@@ -691,10 +699,10 @@
   
     .project-section {
       display: flex;
-      height: 120vh;
+      height: 160vh;
       flex-direction: column;
       background-color: rgb(34, 44, 91);
-      padding: 20px 20px;
+      padding: 40px 20px;
       align-items: center;
       color: white;
     }
@@ -702,12 +710,13 @@
     .project-section h2 {
       padding-bottom: 30px;
       font-size: 40px;
+      padding-top: 30px;
     }
   
-    .project-section img {
+    .projects-1 img {
       margin: 10px 100px;
-      width: 59%;
       border-radius: 30px;
+      width: 70%;
       transition: transform 300ms, border-radius 300ms, box-shadow 300ms;
     }
   
@@ -722,6 +731,12 @@
       margin-left: 50px;
       margin-right: 50px;
       margin-bottom: 20px;
+    }
+
+    .projects-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   
     .p-text {
@@ -832,7 +847,7 @@
     }
   
     .footer-section{
-      height: 60vh;
+      height: 70vh;
       display: flex;
       flex-direction: column;   
       background-color: rgb(34,44,91);
@@ -917,6 +932,8 @@
     #myBtn:hover{
       opacity: 0.4;
     }
-  
   }
+  }
+
+  
   
