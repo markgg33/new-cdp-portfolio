@@ -40,12 +40,12 @@
   text-align: center;
   background-color: orange;
   color: white;
-  font-weight: bold;
 }
 
 /*MEDIA QUERIES*/
 
 @media (max-width: 568px) {
+
   /*LANDING SECTION*/
 
   .main-container {
@@ -78,7 +78,6 @@
 
   .navbar-links li {
     padding: 20px 20px;
-    transition: background-color 100ms;
   }
 
   .navbar-links li:hover {
@@ -301,7 +300,7 @@
   .project-section img:hover {
     transform: translateY(-5px);
     border-radius: 0;
-    box-shadow: 15px 15px 20px orange;
+    box-shadow: 5px 5px 20px orange;
   }
 
   .p-text {
@@ -498,6 +497,12 @@
 @media (min-width: 768px) {
   /*LANDING SECTION*/
 
+  .main-container {
+    background-image: url("../images/bgPicture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .navbar img {
     height: 100px;
   }
@@ -568,16 +573,193 @@
     border-radius: 10px;
   }
 
+  .landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 30px;
+  }
+
   .landing-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     padding: 30px 50px;
+    height: 100vh;
+  }
+
+  .landing-section img {
+    width: 100%;
+    animation: fadeIn 0.75s, heroAnimation 3s infinite;
+  }
+
+  .landing-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 30px;
   }
 
   .landing-text p {
-    font-size: 100px;
+    font-size: 50px;
+    animation: fadeIn 0.75s;
   }
+
+  .landing-text h1 {
+    color: rgb(34, 44, 91);
+    font-size: 70px;
+    animation: fadeIn 0.75s;
+  }
+
+  .flutter {
+    color: rgb(57, 156, 255);
+  }
+
+  .web {
+    color: orange;
+  }
+
+  .btn-download {
+    border: none;
+    padding: 15px 25px;
+    background-color: rgb(34, 44, 91);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.25s, color 0.25s, border 0.25s;
+    cursor: pointer;
+    animation: fadeIn 0.75s;
+  }
+
+  .btn-download:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(34, 44, 91);
+  }
+
+  .about-section {
+    display: flex;
+    background-color: rgb(34, 44, 91);
+    height: 80vh;
+    padding: 20px 20px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-container img {
+    width: 40%;
+    border-radius: 20px;
+    margin: 20px 0 10px 0;
+    box-shadow: 10px 10px 1px orange;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0 30px;
+  }
+
+  .about-text h2 {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .about-text p {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: justify;
+  }
+
+  strong {
+    color: orange;
+  }
+
 }
 
 @media (min-width: 1200px) {
+
+  .toggle-button {
+    display: none;
+  }
+
+  .navbar-links ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar-links{
+    display: block;
+    flex-direction: row;
+  }
+
+  .landing-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 30px;
+  }
+
+  .landing-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+    height: 100vh;
+  }
+
+  .landing-section img {
+    width: 100%;
+    animation: fadeIn 0.75s, heroAnimation 3s infinite;
+  }
+
+  .landing-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 30px;
+  }
+
+  .landing-text p {
+    font-size: 50px;
+    animation: fadeIn 0.75s;
+  }
+
+  .landing-text h1 {
+    color: rgb(34, 44, 91);
+    font-size: 70px;
+    animation: fadeIn 0.75s;
+  }
+
+  .flutter {
+    color: rgb(57, 156, 255);
+  }
+
+  .web {
+    color: orange;
+  }
+
+  .btn-download {
+    border: none;
+    padding: 15px 25px;
+    background-color: rgb(34, 44, 91);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.25s, color 0.25s, border 0.25s;
+    cursor: pointer;
+    animation: fadeIn 0.75s;
+  }
+
+  .btn-download:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(34, 44, 91);
+  }
+
+
 }
