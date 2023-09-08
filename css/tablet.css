@@ -795,6 +795,8 @@
       display: flex;
       flex-direction: column;
       margin: 10px 50px;
+      padding-left: 150px;
+      padding-right: 150px;
     }
   
     .contact-section input{
