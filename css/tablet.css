@@ -467,7 +467,7 @@
     }
   }
 
-  @media screen and (min-width: 1160px){
+  @media screen and (min-width: 1080px){
     /*LANDING SECTION*/
   
     .main-container {
@@ -655,7 +655,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 110vh;
+      height: 130vh;
       padding: 10px 20px;
       background-color: rgb(185, 185, 185);
     }
@@ -699,7 +699,7 @@
   
     .project-section {
       display: flex;
-      height: 160vh;
+      height: 180vh;
       flex-direction: column;
       background-color: rgb(34, 44, 91);
       padding: 40px 20px;
@@ -850,7 +850,7 @@
     }
   
     .footer-section{
-      height: 70vh;
+      height: 80vh;
       display: flex;
       flex-direction: column;   
       background-color: rgb(34,44,91);
