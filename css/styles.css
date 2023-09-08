@@ -696,7 +696,8 @@
   .bars {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    align-items: center;
+    width: 55%;
     margin: 10px 20px;
   }
 
@@ -739,7 +740,7 @@
 
   .project-section img {
     margin: 10px 100px;
-    width: 80%;
+    width: 59%;
     border-radius: 30px;
     transition: transform 300ms, border-radius 300ms, box-shadow 300ms;
   }
