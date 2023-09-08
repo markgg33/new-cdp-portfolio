@@ -140,6 +140,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     margin: 20px 30px;
   }
 
@@ -160,8 +161,12 @@
   }
 
   .btn-download {
+    align-items: center;
+    justify-content: center;
+    width: 70%;
     border: none;
     padding: 15px 25px;
+    margin-top: 20px;
     background-color: rgb(34, 44, 91);
     color: white;
     border-radius: 20px;
