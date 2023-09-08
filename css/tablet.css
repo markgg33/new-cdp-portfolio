@@ -90,12 +90,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 30px 50px;
+      padding: 20px 50px;
       height: 100vh;
     }
   
     .landing-section img {
-      width: 100%;
+      width: 80%;
       animation: fadeIn 0.75s, heroAnimation 3s infinite;
     }
   
@@ -107,13 +107,13 @@
     }
   
     .landing-text p {
-      font-size: 50px;
+      font-size: 40px;
       animation: fadeIn 0.75s;
     }
   
     .landing-text h1 {
       color: rgb(34, 44, 91);
-      font-size: 70px;
+      font-size: 60px;
       animation: fadeIn 0.75s;
     }
   
