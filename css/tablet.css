@@ -91,7 +91,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px 50px;
-    height: 100vh;
+    height: 90vh;
   }
 
   .landing-section img {
@@ -152,7 +152,7 @@
   .about-section {
     display: flex;
     background-color: rgb(34, 44, 91);
-    height: 100vh;
+    height: 60vh;
     padding: 20px 20px;
   }
 
@@ -211,7 +211,7 @@
     flex-direction: column;
     align-items: center;
     margin: 10px 20px;
-    width: 350px;
+    width: 450px;
   }
 
   .bars img {
@@ -241,8 +241,9 @@
     height: 120vh;
     flex-direction: column;
     background-color: rgb(34, 44, 91);
-    padding: 40px 20px;
+    padding: 60px 20px;
     align-items: center;
+    justify-content: center;
     color: white;
   }
 
@@ -253,9 +254,9 @@
   }
 
   .projects-1 img {
-    margin: 10px 100px;
+    margin: 10px 50px;
     border-radius: 30px;
-    width: 400px;
+    width: 600px;
     transition: transform 300ms, border-radius 300ms, box-shadow 300ms;
   }
 
@@ -275,6 +276,7 @@
   .projects-1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 
@@ -291,7 +293,7 @@
   .contact-section {
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 100vh;
     background-color: rgb(185, 185, 185);
     padding-left: 50px;
     padding-right: 50px;
@@ -386,7 +388,7 @@
   }
 
   .footer-section {
-    height: 80vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(34, 44, 91);
