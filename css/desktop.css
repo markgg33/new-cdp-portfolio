@@ -236,10 +236,10 @@
       font-size: 60px;
     }
   
-    .projects-1 img {
+    .projects-1 img{
       margin: 10px 100px;
       border-radius: 30px;
-      width: 500px;
+      width: 600px;
       transition: transform 300ms, border-radius 300ms, box-shadow 300ms;
     }
   
