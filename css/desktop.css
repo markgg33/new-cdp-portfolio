@@ -21,12 +21,13 @@
     }
   
     .navbar-links {
-      display: none;
+      display: flex;
     }
   
     .navbar-links ul {
       display: flex;
       list-style: none;
+      
     }
   
     .navbar-links li {
@@ -55,26 +56,13 @@
     }
   
     .navbar-links ul {
-      flex-direction: column;
+      flex-direction: row;
       width: 100%;
     }
   
     .toggle-button {
-      position: absolute;
-      top: 45px;
-      right: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 30px;
-      height: 25px;
-    }
-  
-    .toggle-button .bar {
-      height: 4px;
-      width: 100%;
-      background-color: white;
-      border-radius: 10px;
+      display:none;
+
     }
   
     .landing-container {
@@ -94,7 +82,7 @@
     }
   
     .landing-section img {
-      width: 50%;
+      width: 600px;
       animation: fadeIn 0.75s, heroAnimation 3s infinite;
     }
   
@@ -106,13 +94,13 @@
     }
   
     .landing-text p {
-      font-size: 30px;
+      font-size: 40px;
       animation: fadeIn 0.75s;
     }
   
     .landing-text h1 {
       color: rgb(34, 44, 91);
-      font-size: 50px;
+      font-size: 60px;
       animation: fadeIn 0.75s;
     }
   
@@ -149,18 +137,19 @@
       background-color: rgb(34, 44, 91);
       height: 100vh;
       padding: 20px 20px;
+      justify-content: space-between;
     }
   
     .about-container {
       display: flex;
       flex-direction: row;
       align-items: center;
+      padding: 0 100px;
     }
   
     .about-container img {
-      width: 30%;
+      width: 300px;
       border-radius: 20px;
-      margin: 20px 0 10px 0;
       box-shadow: 10px 10px 1px orange;
     }
   
@@ -215,7 +204,7 @@
       margin-bottom: 10px;
       transition: transform 500ms, filter 500ms, box-shadow 500ms;
       border-radius: 10px;
-      width: 70%;
+      width: 550px;
     }
   
     .bars img:hover {
@@ -233,24 +222,24 @@
   
     .project-section {
       display: flex;
-      height: 180vh;
+      height: 120vh;
       flex-direction: column;
       background-color: rgb(34, 44, 91);
-      padding: 40px 20px;
       align-items: center;
       color: white;
+      padding-right: 120px;
+      padding-left: 120px;
     }
   
     .project-section h2 {
       padding-bottom: 30px;
-      font-size: 40px;
-      padding-top: 30px;
+      font-size: 60px;
     }
   
     .projects-1 img {
       margin: 10px 100px;
       border-radius: 30px;
-      width: 70%;
+      width: 500px;
       transition: transform 300ms, border-radius 300ms, box-shadow 300ms;
     }
   

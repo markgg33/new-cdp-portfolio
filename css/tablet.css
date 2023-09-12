@@ -710,10 +710,10 @@
 
   .project-section {
     display: flex;
-    height: 180vh;
+    height: 160vh;
     flex-direction: column;
     background-color: rgb(34, 44, 91);
-    padding: 40px 20px;
+    padding: 0 20px;
     align-items: center;
     color: white;
   }
