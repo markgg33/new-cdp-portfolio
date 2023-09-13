@@ -297,7 +297,7 @@
 
   .project-section img {
     margin: 10px 100px;
-    width: 100%;
+    width: 80%;
     border-radius: 30px;
     transition: transform 300ms, border-radius 300ms, box-shadow 300ms;
   }
@@ -419,7 +419,7 @@
   }
 
   .footer-section{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;   
     background-color: rgb(34,44,91);
